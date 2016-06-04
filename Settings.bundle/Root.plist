@@ -36,7 +36,7 @@
         <key>Title</key>
         <string>Default scan mode</string>
         <key>DefaultValue</key>
-        <string>Student</string>
+        <string>StudentTicket</string>
         <key>Titles</key>
         <array>
           <string>Student</string>
