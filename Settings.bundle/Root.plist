@@ -6,12 +6,6 @@
     <array>
       <dict>
         <key>Type</key>
-        <string>PSGroupSpecifier</string>
-        <key>Title</key>
-        <string>Common</string>
-      </dict>
-      <dict>
-        <key>Type</key>
         <string>PSRadioGroupSpecifier</string>
         <key>Key</key>
         <string>timer</string>
@@ -40,7 +34,7 @@
         <key>Key</key>
         <string>mode</string>
         <key>Title</key>
-        <string>Default Mode</string>
+        <string>Default scan mode</string>
         <key>DefaultValue</key>
         <string>Student</string>
         <key>Titles</key>
