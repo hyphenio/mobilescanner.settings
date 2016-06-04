@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PreferenceSpecifiers</key>
+    <array>
+      <dict>
+        <key>Type</key>
+        <string>PSGroupSpecifier</string>
+        <key>Title</key>
+        <string>Common</string>
+      </dict>
+      <dict>
+        <key>Type</key>
+        <string>PSRadioGroupSpecifier</string>
+        <key>Key</key>
+        <string>timer</string>
+        <key>Title</key>
+        <string>Auto close scanner after</string>
+        <key>DefaultValue</key>
+        <integer>1</integer>
+        <key>Titles</key>
+        <array>
+          <string>None</string>
+          <string>1 min</string>
+          <string>2 mins</string>
+          <string>5 mins</string>
+        </array>
+        <key>Values</key>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+          <integer>2</integer>
+          <integer>5</integer>
+        </array>
+      </dict>
+      <dict>
+        <key>Type</key>
+        <string>PSRadioGroupSpecifier</string>
+        <key>Key</key>
+        <string>mode</string>
+        <key>Title</key>
+        <string>Default Mode</string>
+        <key>DefaultValue</key>
+        <string>Student</string>
+        <key>Titles</key>
+        <array>
+          <string>Student</string>
+          <string>Guest</string>
+        </array>
+        <key>Values</key>
+        <array>
+          <string>GuestTicket</string>
+          <string>StudentTicket</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+</plist>
